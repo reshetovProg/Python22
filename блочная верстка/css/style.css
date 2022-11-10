@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1{
+	background-color: #484848;
+	color:#FF9800;
+	text-align: center;
+	padding:20px;
+}
+.menu{
+	width:25%;
+	display:inline-block;
+	margin-right:-4px;
+	font-size: 24px;
+	text-align: center;
+	color:white;
+}
+.menu1{	
+	background-color: #383838;
+}
+.menu2{
+	background-color: #585858;
+}
+.menu3{
+	background-color: #787878;
+}
+.menu4{
+	background-color: #989898;
+}
+.content{
+	background-color: #484848;
+	text-align: left;
+	padding: 50px 100px;
+	color:#FF9800;
+	font-size: 24px;
+}
