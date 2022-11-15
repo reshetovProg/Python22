@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Bad Script', cursive;
+	background-color: #E5DFCD;
+}
+
+header {
+	padding: 37px 140px;
+	background-color: #BFB3B3;
+}
+
+.logo {
+	background-image: url(https://cdn-icons-png.flaticon.com/512/152/152760.png);
+	background-size: cover;
+	width: 124px;
+	height: 142px;
+	display: inline-block;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 64px;
+	position: absolute;
+	top: 60px;
+	margin-left: 50px;
+}
+
+nav {
+	padding: 73px 183px;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	font-size: 36px;
+	color: black;
+}
+
+li {
+	list-style-type: none;
+}
+
+.content {
+	display: inline-block;
+	text-align: right;
+}
+
+.content__title {
+	font-size: 64px;
+}
+
+.content__subtitle {
+	font-size: 48px;
+}
