@@ -1,0 +1,297 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block
+}
+
+html {
+	height: 100%
+}
+
+body {
+	line-height: 1
+}
+
+ol,
+ul {
+	list-style: none
+}
+
+blockquote,
+q {
+	quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+.header {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.header__line1 {
+
+	height: 30px;
+	background-color: rgb(238, 238, 238);
+}
+
+.container {
+	display: flex;
+	height: 100%;
+	width: 90%;
+	margin: auto;
+}
+
+.line1__lang {
+	display: flex;
+	align-items: center;
+}
+
+.line1__lang img {
+	margin-left: 10px;
+	height: 15px;
+}
+
+.line1__search {
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+#search {
+	border-radius: 15px;
+}
+
+.line1__search img {
+	height: 20px;
+	margin-right: 10px;
+}
+
+.header__line2 {
+
+	height: 70px;
+	border-top: solid 2px rgb(144, 141, 141);
+	border-bottom: solid 2px rgb(144, 141, 141);
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	font-size: 40px;
+	color: rgb(89, 87, 87);
+}
+
+.header__line2 nav {
+	height: 100%;
+	flex-grow: 1;
+
+}
+
+.header__line2 ul {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	height: 100%;
+	align-items: center;
+}
+
+.header__line2 li {
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0px 20px;
+	transition: 0.5s;
+}
+
+.header__line2 li:hover {
+	color: rgb(89, 87, 87);
+	font-size: 1.1em;
+	transition: 0.5s;
+}
+
+.header__line2 button {
+	height: 30px;
+	width: 100px;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 20px;
+	border: none;
+	background-color: rgb(89, 87, 87);
+	color: white;
+	transition: 0.5s;
+
+}
+
+.header__line2 button:hover {
+	color: rgb(89, 87, 87);
+	background-color: rgb(207, 206, 206);
+	height: 35px;
+	width: 110px;
+	transition: 0.5s;
+
+}
+
+.button {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	margin-left: 60px;
+}
+
+.price {
+
+	font-family: 'Ubuntu', sans-serif;
+	height: 400px;
+
+}
+
+.price__table {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	flex-direction: column;
+	flex-grow: 1;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+	width: 500px;
+}
+
+
+.column {
+	display: flex;
+	flex-grow: 1;
+	border: solid 1px rgba(0, 0, 0, 0.481);
+	padding: 10px;
+
+}
+
+.column__head {
+	justify-content: center;
+	font-size: 1.1em;
+}
+
+.column2 {
+	width: 100px;
+	flex-grow: 0;
+}
+
+.price__img {
+	width: 400px;
+	height: auto;
+	background-image: url(/img/barber.png);
+	background-size: cover;
+}
